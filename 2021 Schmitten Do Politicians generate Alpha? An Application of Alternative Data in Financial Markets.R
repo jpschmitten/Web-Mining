@@ -311,7 +311,7 @@ pie(c(length(house_members$Party[house_members$Party == 'Democratic'])/length(ho
 pie(c(length(House_Data$PoliticalParty[House_Data$PoliticalParty == 'Democratic'])/length(House_Data$PoliticalParty),length(House_Data$PoliticalParty
     [House_Data$PoliticalParty == 'Republican'])/length(House_Data$PoliticalParty)), labels = c('D', 'R'), col = c('blue', 'red'), init.angle=90)
 
-#plot monthly value of reddit portfolio vs benchmark
+#plot monthly value of politician portfolio vs benchmark
 #ggplot(monthly_sum) + geom_line(aes(x = as.Date(Date), y = value, color = variable)) + 
 #  scale_y_continuous(labels = comma)
 
